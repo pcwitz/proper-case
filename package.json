@@ -1,0 +1,32 @@
+{
+  "name": "proper-case",
+  "version": "1.0.0",
+  "description": "properly proper case personal names",
+  "main": "dist/js/index.js",
+  "scripts": {
+    "build": "uglifyjs src/js/index.js --compress --mangle --output dist/js/index.js",
+    "test": "mocha --watch --reporter progress src/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pcwitz/proper-case.git"
+  },
+  "keywords": [
+    "proper",
+    "case",
+    "personal",
+    "names"
+  ],
+  "author": "PerryAbramowitz <pcwitz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "title-case": "^2.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "uglify-js": "^2.8.5",
+    "watch": "^1.0.2"
+  }
+}
