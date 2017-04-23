@@ -18,17 +18,7 @@ Proper cases personal names. Some benefits include:
 
 ## Requirements
 
-- assume user input completely disregards case
-
-## Development
-
-- 
-    *  
-    *  
-    *  
-    *  
-      1.  
-      2.  
+- assume user input completely disregards case 
 
 ## Installation
 
