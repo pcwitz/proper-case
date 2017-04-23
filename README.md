@@ -24,10 +24,10 @@ properCase('string'); //=> "String"
 
 - trims
 - transforms
-    *  o'brien => O'Brien
-    *  jo-anne => Jo-Anne
-    *  dePaola => DePaola
-    *  ibn al-ahmed => Ibn Al-Ahmed
+  * o'brien => O'Brien
+  * jo-anne => Jo-Anne
+  * dePaola => DePaola
+  * ibn al-ahmed => Ibn Al-Ahmed
 
 ## Requirements
 
