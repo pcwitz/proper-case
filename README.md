@@ -4,7 +4,9 @@ Proper cases personal names.
 
 ## Installation
 
-`npm install proper-case --save`
+```
+npm install proper-case --save
+```
 
 ## Usage
 
