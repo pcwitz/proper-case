@@ -2,7 +2,10 @@
 
 # proper-case
 
-Proper cases personal names. Some benefits include:
+Proper cases personal names.
+
+## Some benefits include:
+
 1. fewer string transformations during datastore retrieval
 2. proper casing up front rather than across multiple applications 
 3. keeping user input consistent
@@ -22,6 +25,6 @@ Proper cases personal names. Some benefits include:
 
 ## Installation
 
-- npm install proper-case
+- `npm install proper-case`
 
 ---
