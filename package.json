@@ -2,7 +2,7 @@
   "name": "proper-case",
   "version": "1.0.3",
   "description": "properly proper case personal names",
-  "main": "dist/js/index.js",
+  "main": "dist/js/proper-case.js",
   "scripts": {
     "build": "uglifyjs src/js/proper-case.js --compress --mangle --output dist/js/proper-case.js",
     "test": "mocha --watch --reporter progress src/**/*.spec.js"
