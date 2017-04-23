@@ -4,7 +4,7 @@ var titleCase = require('title-case');
 
 // var re = /(?!^.*[A-Z]{2,}.*$)^[A-Za-z]*$/; // (?!^.*[A-Z]{2,}.*$) don't match the whole expression if there are two or more consecutive uppercase letters. ^[A-Za-z]*$ match uppercase and lowercase letters.
 
-var properCase = function(nameAsEntered) {
+module.exports = function(nameAsEntered) {
 
   var spaceless = nameAsEntered.indexOf(' ') === -1; // titlecase makes dePaola into De Paola. we don't want the space
   var map = {};
@@ -36,8 +36,4 @@ var properCase = function(nameAsEntered) {
     }
     return titleCased;
   }
-};
- 
-module.exports = {
-  properCase: properCase
 };

@@ -1,6 +1,6 @@
 // unit tests
 var expect = require('chai').expect;
-var properCase = require('./index').properCase;
+var properCase = require('./proper-case');
 
 describe('properCase transformations', function() {
   beforeEach(function() {

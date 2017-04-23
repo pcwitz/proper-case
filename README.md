@@ -4,6 +4,16 @@
 
 Proper cases personal names.
 
+## Installation
+
+`npm install proper-case --save`
+
+## Usage
+
+```javascript
+properCase('string'); //=> 'String'
+```
+
 ## Some benefits include:
 
 1. fewer string transformations during datastore retrieval
@@ -22,9 +32,5 @@ Proper cases personal names.
 ## Requirements
 
 - assume user input completely disregards case 
-
-## Installation
-
-- `npm install proper-case`
 
 ---
