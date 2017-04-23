@@ -1,6 +1,6 @@
 {
   "name": "proper-case",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "properly proper case personal names",
   "main": "dist/js/index.js",
   "scripts": {
