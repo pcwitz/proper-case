@@ -10,7 +10,9 @@ Proper cases personal names.
 
 ## Usage
 
-`properCase('string'); //=> "String"`
+```javascript
+properCase('string'); //=> "String"
+```
 
 ## Some benefits include:
 
