@@ -1,5 +1,3 @@
----
-
 # proper-case
 
 Proper cases personal names.
@@ -31,6 +29,4 @@ properCase('string'); //=> "String"
 
 ## Requirements
 
-- assume user input completely disregards case 
-
----
+- assume user input completely disregards case
